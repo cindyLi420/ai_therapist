@@ -30,7 +30,7 @@ chroma-hnswlib==0.7.3
 chromadb==0.4.24
 cleo==2.1.0
 cloudpathlib==0.16.0
-clyent==1.2.2
+clyent==1.2.1
 coloredlogs==15.0.1
 conda-repo-cli==1.0.75
 conda-verify==3.4.2
