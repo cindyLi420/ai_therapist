@@ -1,0 +1,7 @@
+Agents里面包含了所有对于AI的提示词和指导语。
+Implementation好像是主程序的主函数，在这里改模型。
+utilities没懂是干什么的，看起来是老师自己的设计。
+之后我应该只在ai_therapist_share里操作
+当前最新的模型是正式调试-RAG_备份.ipynb - 快捷方式
+
+Implementation.py里调用了Agents.py里的AutomaticThoughtsAnalyzer函数，所以他们是子集父集的关系
