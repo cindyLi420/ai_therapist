@@ -115,8 +115,8 @@ def get_conversation_history(username):
         dbname="ai_therapist",
         user="postgres",
         password="1996310ljkb",
-        host="6.tcp.cpolar.cn",
-        port="12302"
+        host="8.tcp.cpolar.cn",
+        port="10580"
     )
     cur = conn.cursor()
 
@@ -140,8 +140,8 @@ def check_username_exists(username):
         dbname="ai_therapist",
         user="postgres",
         password="1996310ljkb",
-        host="6.tcp.cpolar.cn",
-        port="12302"
+        host="8.tcp.cpolar.cn",
+        port="10580"
     )
     cur = conn.cursor()
     cur.execute("SELECT 1 FROM therapist_conversation_logs WHERE username = %s", (username,))
