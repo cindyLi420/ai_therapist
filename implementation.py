@@ -16,8 +16,8 @@ def save_conversation_log(username, userinput, conversation_history_client, conv
         dbname="ai_therapist",
         user="postgres",
         password="1996310ljkb",
-        host="6.tcp.cpolar.cn",
-        port="12302"
+        host="8.tcp.cpolar.cn",
+        port="10580"
     )
     cursor = conn.cursor()
 
