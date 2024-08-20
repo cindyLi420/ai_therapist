@@ -17,8 +17,8 @@ def connect_db():
         dbname="ai_therapist",
         user="postgres",
         password="1996310ljkb",
-        host="6.tcp.vip.cpolar.cn",
-        port="11359"
+        host="8.tcp.cpolar.cn",
+        port="10580"
     ) 
 agent_implementation = implementation.AgentImplementation()
 # ========== 页面设置 ========== #
